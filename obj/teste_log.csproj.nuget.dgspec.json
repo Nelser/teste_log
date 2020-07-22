@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/felipe/Documentos/VSCode-Projetos/teste_log/teste_log.csproj": {}
+    "/home/felipe/Documentos/VSCode-Projetos/Testes/teste_logs/teste_log/teste_log.csproj": {}
   },
   "projects": {
-    "/home/felipe/Documentos/VSCode-Projetos/teste_log/teste_log.csproj": {
+    "/home/felipe/Documentos/VSCode-Projetos/Testes/teste_logs/teste_log/teste_log.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/felipe/Documentos/VSCode-Projetos/teste_log/teste_log.csproj",
+        "projectUniqueName": "/home/felipe/Documentos/VSCode-Projetos/Testes/teste_logs/teste_log/teste_log.csproj",
         "projectName": "teste_log",
-        "projectPath": "/home/felipe/Documentos/VSCode-Projetos/teste_log/teste_log.csproj",
+        "projectPath": "/home/felipe/Documentos/VSCode-Projetos/Testes/teste_logs/teste_log/teste_log.csproj",
         "packagesPath": "/home/felipe/.nuget/packages/",
-        "outputPath": "/home/felipe/Documentos/VSCode-Projetos/teste_log/obj/",
+        "outputPath": "/home/felipe/Documentos/VSCode-Projetos/Testes/teste_logs/teste_log/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/felipe/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,46 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.MySQL": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
